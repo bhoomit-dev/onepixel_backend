@@ -1,6 +1,6 @@
 [build]
 builder = "nixpacks"
-buildCommand = "sudo make"
+buildCommand = "make"
 
 [deploy]
 startCommand = "echo starting!"
