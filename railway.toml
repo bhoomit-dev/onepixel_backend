@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+buildCommand = "sudo make"
+
+[deploy]
+startCommand = "echo starting!"
+healthcheckPath = "/"
+healthcheckTimeout = 100
+restartPolicyType = "never"
